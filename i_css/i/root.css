@@ -33,6 +33,7 @@ select {
 }
 input:disabled { cursor: not-allowed; }
 .titulo { transform: scaleY(1.7); letter-spacing: -0.08em; }
+.display { display: block; }
 :root {
     --n-fuente:                 "Georgia", Garamond, serif;
     --n-fuente-dos:             "Verdana", Helvetica, Tahoma, sans-serif;

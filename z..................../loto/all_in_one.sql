@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 05-06-2021 a las 03:19:39
+-- Tiempo de generación: 21-07-2021 a las 22:23:16
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.2
 
@@ -703,7 +703,20 @@ INSERT INTO `Historial` (`id`, `fecha`, `sorteo`, `loto`, `lotoMas`, `superMas`)
 (407, '2021-05-22', '1163', '05 07 09 15 24 38', '02', '03'),
 (408, '2021-05-26', '1164', '04 06 11 19 21 28', '06', '12'),
 (409, '2021-05-29', '1165', '14 21 22 26 30 32', '07', '14'),
-(410, '2021-06-02', '1166', '07 16 18 29 34 36', '04', '02');
+(410, '2021-06-02', '1166', '07 16 18 29 34 36', '04', '02'),
+(411, '2021-06-05', '1167', '05 07 21 24 31 38', '05', '04'),
+(412, '2021-06-09', '1168', '03 06 12 15 19 32', '09', '13'),
+(413, '2021-06-12', '1169', '22 23 29 31 35 38', '02', '09'),
+(414, '2021-06-16', '1170', '07 10 12 19 26 28', '05', '13'),
+(415, '2021-06-19', '1171', '14 17 18 27 29 32', '02', '08'),
+(416, '2021-06-23', '1172', '01 03 28 29 33 36', '02', '03'),
+(417, '2021-06-26', '1173', '06 09 16 20 21 33', '10', '07'),
+(418, '2021-06-30', '1174', '04 13 17 24 35 36', '02', '07'),
+(419, '2021-07-03', '1175', '09 16 22 27 29 30', '04', '01'),
+(420, '2021-07-07', '1176', '12 17 25 27 31 32', '04', '06'),
+(421, '2021-07-10', '1177', '01 13 16 20 32 38', '06', '02'),
+(422, '2021-07-14', '1178', '06 11 29 30 33 34', '01', '13'),
+(423, '2021-07-17', '1179', '06 20 22 27 28 32', '04', '03');
 
 -- --------------------------------------------------------
 
@@ -973,7 +986,7 @@ CREATE TABLE `Usuarios` (
 --
 
 INSERT INTO `Usuarios` (`id`, `nombre`, `apellido`, `correo`, `numero`, `sexo`, `nacimiento`, `pais`, `codigo`, `fecha`, `foto`, `portada`) VALUES
-(1, 'Neury', 'Doe', 'neury@email.com', '829 933 5860', 'Hombre', '1991-09-21', 'Dominican Republic', 'neury', '2021-01-01 16:47:03', 'foto.jpg', 'portada.jpg'),
+(1, 'Neury', 'Doe', 'neury@email.com', '829 933 5860', 'Hombre', '1991-09-21', 'Dominican Republic', 'neury', '2021-01-01 16:47:03', 'foto-50C115.jpg', 'portada-50C115.jpg'),
 (2, 'Eleasar', 'Doe', 'eleasar@email.com', '809 000 0000', 'Femenina', '2020-01-01', 'RD', 'neury', '2021-01-04 17:08:53', 'foto.jpg', 'portada.jpg'),
 (3, 'Aguasvivas', 'Doe', 'aguasvivas@email.com', '809 000 0000', 'Femenina', '2001-01-01', 'RD', 'neury', '2021-01-05 21:28:10', 'foto.jpg', 'portada.jpg'),
 (4, 'Lorenzo', 'Doe', 'lorenzo@email.com', '809 000 0000', 'Femenina', '2001-01-01', 'RD', 'neury', '2021-04-09 17:14:50', 'foto.jpg', 'portada.jpg'),
@@ -1201,7 +1214,7 @@ ALTER TABLE `Gusta`
 -- AUTO_INCREMENT de la tabla `Historial`
 --
 ALTER TABLE `Historial`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=411;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=424;
 
 --
 -- AUTO_INCREMENT de la tabla `HistorialCoincidente`
